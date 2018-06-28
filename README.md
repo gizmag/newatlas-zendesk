@@ -16,7 +16,15 @@ The image credit is defined in the bottom of style.css.
 
 ## Deploy
 
+Either use the Zendesk ZAT CLI ([Previewing theme changes locally](https://support.zendesk.com/hc/en-us/articles/115012793547-Previewing-theme-changes-locally-Guide-Professional-and-Enterprise-)), or:
+
 - `git archive --format zip --output ~/Downloads/newatlas-copenhagen.zip master`
 - https://newatlas.zendesk.com/theming/workbench > Import
 
-The new theme will overwrite the old one, so long as the name defined in the manifest matches.
+You'll need to activate the new theme and delete the old when doing a manual upload.
+
+
+## Documentation
+
+- [Customizing your Help Center theme (Guide Professional and Enterprise)](https://support.zendesk.com/hc/en-us/articles/203664326-Customizing-your-Help-Center-theme-Guide-Professional-and-Enterprise-)
+- [Help Center templating cookbook (Guide Professional and Enterprise)](https://support.zendesk.com/hc/en-us/articles/216367358)
