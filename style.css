@@ -1024,7 +1024,7 @@ ul {
 }
 
 .recent-activity-item-comment {
-  padding-left: 5px;
+  display: none;
 }
 
 [dir="rtl"] .recent-activity-item-comment {
