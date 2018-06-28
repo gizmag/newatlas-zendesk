@@ -4039,3 +4039,7 @@ ul {
   display: inline-block;
   margin: 0 5px;
 }
+
+.powered-by-zendesk {
+  display: none;
+}
